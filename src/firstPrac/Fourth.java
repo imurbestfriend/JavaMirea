@@ -40,6 +40,4 @@ public class Fourth {
         System.out.println(max);
         System.out.println(min);
     }
-
-
 }

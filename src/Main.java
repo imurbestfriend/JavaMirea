@@ -2,8 +2,8 @@ import firstPrac.*;
 
 public class Main {
     public static void main(String[] args) {
-        //one Task = new one();
-        //Task.arr();
+        one Task = new one();
+        Task.arr();
 
         //Fourth Task4 = new Fourth();
         //Task4.DOWhile();
@@ -18,3 +18,5 @@ public class Main {
         //  Task7.fact();
     }
 }
+
+
