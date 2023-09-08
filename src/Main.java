@@ -15,6 +15,6 @@ public class Main {
         //Task6.garm();
 
         //Seven Task7 = new Seven();
-        // Task7.fact();
+        //  Task7.fact();
     }
 }
