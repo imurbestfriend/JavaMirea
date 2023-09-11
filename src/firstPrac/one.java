@@ -3,7 +3,7 @@ package firstPrac;
 public class one {
         short summ = 0;
         short size = 10;
-        short[] array = new short[10];
+        short[] array = new short[size];
         public void arr(){
             for (short i = 0; i < array.length; i++) {
                 array[i] = i;
