@@ -1,4 +1,6 @@
-package secondPrac;
+package secondPrac.one;
+
+import secondPrac.one.Author;
 
 public class TestAuthor {
     public static void main(String[] args) {

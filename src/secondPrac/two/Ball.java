@@ -1,5 +1,4 @@
-package secondPrac;
-
+package secondPrac.two;
 public class Ball {
     private double x;
     private double y;

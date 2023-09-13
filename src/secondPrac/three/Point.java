@@ -1,4 +1,4 @@
-package secondPrac;
+package secondPrac.three;
 
 public class Point {
     private double x;
