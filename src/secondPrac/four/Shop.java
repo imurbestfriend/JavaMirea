@@ -9,29 +9,6 @@ public class Shop implements ShopMet {
     String[] array = new String[size];
 
 
-    List<String> abcd  = Arrays.asList(array);
-
-
-
-    public void addItems(){
-        for (short i = 0; i < size; i++) {
-            array[i] = scanner.nextLine();
-        }
-        for (short i = 0; i < size; i++) {
-
-        }
-
-    }
-
-
-
-
-
-
-
-
-
-
     @Override
     public void findPC() {
 
