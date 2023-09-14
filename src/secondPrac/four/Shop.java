@@ -1,23 +1,30 @@
 package secondPrac.four;
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 public class Shop implements ShopMet {
-    Scanner scanner = new Scanner(System.in);
-    short size = 5;
-    String[] array = new String[size];
+    public static void main(String[] args) {
+        ArrayList<String> numbers = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+        String input;
 
+        while (scanner.hasNextLine()) {
+            input = scanner.nextLine();
+            if (input.isEmpty()) {
+                break;
+            }
 
-    @Override
-    public void findPC() {
+            // Делайте что-то с введенными значениями
+            numbers.add(input);
+        }
 
-    }
+        scanner.close();
 
-    @Override
-    public void addPC() {
+        for (int i = 0; i < numbers.size(); i++) {
+            System.out.println(numbers.get(i));
+        }
 
-    }
+        }
+
 
     @Override
     public void removePC() {
