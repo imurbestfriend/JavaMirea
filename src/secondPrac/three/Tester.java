@@ -1,56 +1,22 @@
 package secondPrac.three;
+import secondPrac.five.Dog;
 
+import java.util.ArrayList;
 public class Tester {
-
-    public static class Ball {
-        private double x;
-        private double y;
-
-        public Ball(double x, double y){
-            this.x = x;
-            this.y =y;
-        }
-
-        public Ball(){
-
-        }
-
-        public double getX() {
-            return x;
-        }
-
-        public double getY() {
-            return y;
-        }
-
-        public void setX(double x) {
-            this.x = x;
-        }
-
-        public void setY(double y) {
-            this.y = y;
-        }
-        public void SetXY(double x, double y){
-            this.x = x;
-            this.y = y;
-        }
-        public void  Move(double xDisp, double yDisp){
-            this.x = x + xDisp;
-            this.y = y + yDisp;
-        }
-        @Override
-        public String toString(){
-            return "Ball[X =" + x + ", Y =" + y + "]";
+    public static void main(String[] args) {
+        ArrayList<Point> array = new ArrayList<Point>();
+        addPointToArray(array,3,6);
+        addPointToArray(array,4,9);
+        for (int i = 0; i < array.size(); i++) {
+            System.out.println(array.get(i));
         }
     }
+    public static void addPointToArray(ArrayList<Point> array, int x, int y) {
 
-    public static class TestBall {
-        public static void main(String[] args) {
-            Ball ball = new Ball();
-            ball.SetXY(5,8);
-            ball.Move(3,3);
-            System.out.println(ball.getX() + " " + ball.getY());
-            System.out.println(ball);
-        }
+        Point point = new Point(x, y);
+
+        // Добавляем его в массив
+        array.add(point);
+
     }
 }
