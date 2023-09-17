@@ -1,31 +1,41 @@
 package secondPrac.seven;
 
 public class Book {
-    private String author;
     private String name;
-    private int date;
-
-    public void setAuthor(String author) {
-        this.author = author;
+    private String title;
+    private int age;
+    private String type;
+    public  Book(String type){
+        this.type = type;
     }
-
-    public void setName(String name) {
+    public void showType(){
+        System.out.println("Type is " + type);
+    }
+    public Book(){}
+    public Book(String name, String title, int age) {
         this.name = name;
-    }
-
-    public void setDate(int date) {
-        this.date = date;
-    }
-
-    public String getAuthor() {
-        return author;
+        this.title = title;
+        this.age = age;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getDate() {
-        return date;
+    public String getTitle() {
+        return title;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", title='" + title + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
