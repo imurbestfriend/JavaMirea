@@ -36,6 +36,7 @@ public class Shop implements ShopMet {
 
             // Заполняем список введенными элементами
             numbers.add(input);
+
         }
         scanner.close();
         return numbers;
