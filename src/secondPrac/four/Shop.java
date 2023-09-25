@@ -44,7 +44,7 @@ public class Shop implements ShopMet {
 
     public static void main(String[] args) {
         List<String> numbers = getList();
-        addStringToList(numbers, "lenovo");
+        addStringToList(numbers, "dell");
         removeItem(numbers,"mac");
 
         String target = "acer";

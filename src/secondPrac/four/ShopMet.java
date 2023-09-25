@@ -9,4 +9,5 @@ public interface ShopMet {
     public static void removeItem(List<String> numbers, String str){}
 
 
+
 }
