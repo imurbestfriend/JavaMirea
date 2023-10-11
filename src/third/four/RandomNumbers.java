@@ -30,13 +30,9 @@ public class RandomNumbers {
            if (array[i] % 2 == 0){
                evenArray[i] = array[i];
            }
-           else {
-
-           }
         }
         for (int num : evenArray) {
             System.out.println(num + " ");
         }
-
     }
 }
